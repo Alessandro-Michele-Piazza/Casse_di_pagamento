@@ -13,15 +13,15 @@ export const metadata: Metadata = pageMetadata(
 export default function SistemaCassaCompletoPage() {
   return (
     <>
-      <section className="bg-white py-20">
+      <section className="bg-slate-950 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-300">
             Soluzione integrata
           </p>
-          <h1 className="mt-3 max-w-4xl text-5xl font-black tracking-normal text-slate-950">
+          <h1 className="mt-3 max-w-4xl text-5xl font-black tracking-normal text-white">
             Un unico referente per cassa automatica, touch, fiscale e software.
           </h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-200">
             Progettiamo il punto cassa completo con componenti coerenti,
             installazione e assistenza. L&apos;obiettivo non è vendere una
             macchina, ma rendere più controllato il flusso operativo.
