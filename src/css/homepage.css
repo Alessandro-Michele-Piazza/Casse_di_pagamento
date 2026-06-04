@@ -1,3 +1,7 @@
-.altezza_minima {
-  min-height: 100vh;
+.sfondo_homepage{
+    background-image: url("../../public/media/immagine_header.webp");
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* Altezza della sezione */
 }
+

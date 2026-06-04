@@ -38,6 +38,31 @@
   --font-corpo: "Open Sans", sans-serif;
 }
 
+.testo_bianco {
+  color: var(--testo-chiaro);
+}
+
+.testo_grigio {
+  color: var(--testo-secondario);
+}
+
+.testo_blu {
+  color: var(--blu-scuro);
+}
+
+.testo_rosso {
+  color: var(--rosso-attenzione);
+}
+
+.sfondo_blu {
+  background-color: var(--blu-scuro);
+}
+
+.testo_blu_chiaro {
+  color: var(--blu-chiaro);
+}
+
+
 /* --- STILI BASE DI ESEMPIO --- */
 
 body {
