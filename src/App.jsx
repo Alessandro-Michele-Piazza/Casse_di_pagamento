@@ -1,12 +1,11 @@
+import { RouterProvider } from "react-router";
 import "./App.css";
-import router from "./router/router.jsx";
+import router from "./router/router";
 
 export default function App() {
   return (
     <>
-      <h1 className="">
-        Prova Tailwind CSS
-      </h1>
+      <RouterProvider router={router} />
     </>
   );
 }
