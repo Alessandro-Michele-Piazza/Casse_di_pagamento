@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { SiteFooter } from "@/components/footer";
-import { SiteHeader } from "@/components/header";
+import { SiteFooter } from "@/components/layout/Footer";
+import { SiteHeader } from "@/components/layout/Header";
 import { baseMetadata } from "@/lib/meta-data";
 import "@/css/globals.css";
 

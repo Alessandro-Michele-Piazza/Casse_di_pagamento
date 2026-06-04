@@ -1,47 +1,45 @@
 import type { Metadata } from "next";
+import { Hero } from "@/components/sections/Hero";
+import { ProductHighlights } from "@/components/sections/ProductHighlights";
+import { CompleteSystem } from "@/components/sections/CompleteSystem";
+import { BenefitsGrid } from "@/components/sections/BenefitsGrid";
+import { RentalOffer } from "@/components/sections/RentalOffer";
+import { Industries } from "@/components/sections/Industries";
+import { Process } from "@/components/sections/Process";
+import { Faq } from "@/components/sections/Faq";
+import { CtaBand } from "@/components/sections/CtaBand";
+import { faqJsonLd, localBusinessJsonLd, pageMetadata } from "@/lib/seo";
 
-// import "../../css/homepage.css";
-import Link from "next/link";
-import { pageSeoMap, siteUrl, buildAlternates } from "@/lib/meta-data";
-
-const homeSeo = pageSeoMap["/"];
-
-export const metadata: Metadata = {
-  title: homeSeo.title,
-  description: homeSeo.description,
-  alternates: buildAlternates("/"),
-};
-
-const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Casse Automatiche",
-    url: siteUrl,
-    email: "info@splitweb.it",
-    parentOrganization: {
-      "@type": "Organization",
-      name: "SPLIT ® | GL S.r.l.s.",
-      url: "https://splitweb.it",
-    },
-  },
-];
+export const metadata: Metadata = pageMetadata(
+  "Casse Automatiche Rendiresto e Sistemi Cassa Completi | SPLIT",
+  "Automatizza il punto cassa con casse automatiche VNE, sistema touch, misuratore fiscale e software KeepUp Smart. Noleggio operativo, installazione e assistenza.",
+  "/",
+);
 
 export default function Homepage() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([localBusinessJsonLd(), faqJsonLd()]),
+        }}
       />
-
-      <div>
-        <div className="sfondo_homepage flex items-center justify-center">
-          <h1 className="text-5xl font-bold testo_bianco ">
-            Benvenuti su Casse Automatiche
-          </h1>
-        </div>
-      </div>
+      <Hero
+        eyebrow="Casse automatiche rendiresto + sistema cassa completo"
+        title="Automatizza il punto cassa. Incassa meglio, lavora più veloce."
+        subtitle="Soluzioni VNE con sistema cassa touch, misuratore fiscale e software KeepUp Smart. Installazione, configurazione, assistenza e formula noleggio operativo all-inclusive."
+        primaryCta={{ label: "Richiedi preventivo", href: "/contatti" }}
+        secondaryCta={{ label: "Scopri i modelli", href: "/prodotti" }}
+      />
+      <ProductHighlights />
+      <CompleteSystem />
+      <BenefitsGrid />
+      <RentalOffer />
+      <Industries />
+      <Process />
+      <Faq />
+      <CtaBand />
     </>
   );
 }
