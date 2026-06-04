@@ -29,7 +29,7 @@ export function ProductHighlights({ showAll = false }: ProductHighlightsProps) {
               key={product.slug}
               name={product.name}
               claim={product.claim}
-              image={product.image}
+              image={product.image} 
               href={`/prodotti/${product.slug}`}
               badges={product.highlights}
               featured={product.priority === "featured"}

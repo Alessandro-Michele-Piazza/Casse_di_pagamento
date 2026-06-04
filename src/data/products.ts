@@ -1,4 +1,8 @@
 import type { Product } from "@/types";
+import cash2_2_image from "../assets/images/cash2.2.webp";
+import cash4_2_image from "../assets/images/cash4.2.webp";
+import cash6_2_image from "../assets/images/cash6.2-1.webp";
+import virtuo4_image from "../assets/images/virtuo4.webp";
 
 const productImage = "/media/immagine_header.webp";
 
@@ -10,7 +14,7 @@ export const products: Product[] = [
     priority: "featured",
     claim: "La cassa automatica compatta per piccoli volumi di contante.",
     description:
-      "Soluzione compatta pensata per attività con volumi contenuti e necessità di automatizzare incasso e resto senza occupare troppo spazio.",
+      "La cassa automatica più compatta della famiglia VNE. Da utilizzare in tutti quegli esercizi commerciali in cui il volume delle transazioni in contanti non superi le 70 al giorno e, grazie alle sue dimensioni ridotte e alla forma lineare, si integra facilmente in qualsiasi arredamento. Il pannello frontale è completamente personalizzabile.",
     idealFor: [
       "Bar",
       "Piccoli negozi",
@@ -25,7 +29,7 @@ export const products: Product[] = [
       "Installazione semplice",
     ],
     highlights: ["Compatta", "Personalizzabile", "Ideale per piccoli volumi"],
-    image: productImage,
+    image: cash2_2_image,
     ctaLabel: "Scopri MiniCash",
   },
   {
@@ -35,7 +39,7 @@ export const products: Product[] = [
     priority: "featured",
     claim: "Cassa automatica rendiresto per punti vendita moderni.",
     description:
-      "Soluzione rendiresto per automatizzare il pagamento e migliorare sicurezza, igiene e velocità del punto cassa.",
+      "Accetta tutte le banconote con inserimento uno ad uno e dà resto con 4 tipi di banconote erogandone una alla volta. Accetta tutte le monete introducibili simultaneamente anche di tagli misti e dà resto con tutte le monete simultaneamente in tagli misti.",
     idealFor: ["Bar", "Tabacchi", "Panifici", "Macellerie", "Retail"],
     benefits: [
       "Automazione del resto",
@@ -48,7 +52,7 @@ export const products: Product[] = [
       "Punto cassa ordinato",
       "Ottimo equilibrio investimento/benefici",
     ],
-    image: productImage,
+    image: cash2_2_image,
     ctaLabel: "Scopri Virtuo 4",
   },
   {
@@ -59,7 +63,7 @@ export const products: Product[] = [
     claim:
       "Soluzione compatta ed efficiente per flussi di cassa medio-piccoli.",
     description:
-      "Cassa automatica VNE indicata per attività che vogliono fare un salto di qualità nella gestione del contante.",
+      "La più compatta cassa automatica VNE orizzontale. Grazie al suo modulo monete estremamente potente, abbinato ad un riciclatore di banconote capace di riciclare fino a 4 tagli, posizionato anch’esso in posizione orizzontale, si addice perfettamente a quelle attività che necessitano una cassa che salvi gli spazi in altezza e si sviluppi quindi in profondità. Elegante e ergonomicamente perfetta, si integra benissimo in ogni tipo di arredamento.",
     idealFor: ["Ristoranti", "Pizzerie", "Farmacie", "Negozi", "Servizi"],
     benefits: [
       "Gestione più efficiente del pagamento",
@@ -68,7 +72,7 @@ export const products: Product[] = [
       "Maggiore sicurezza",
     ],
     highlights: ["Versatile", "Scalabile", "Adatta a molte attività"],
-    image: productImage,
+    image: cash2_2_image,
     ctaLabel: "Scopri Cash 2.2",
   },
   {
@@ -96,7 +100,7 @@ export const products: Product[] = [
     priority: "standard",
     claim: "Cassa modulare per flussi importanti di contante.",
     description:
-      "Soluzione modulare pensata per attività con maggiore intensità di transazioni e necessità di robustezza operativa.",
+      "La cassa modulare che accetta banconote a pacchetto ed eroga banconote a pacchetto  in grado di gestire importanti flussi di banconote sia in pagamento che in resto abbinata ad un riciclatore di monete potentissimo che si sviluppa in posizione orizzontale. Questa combinazione consente alla cassa di gestire grandi volumi di pagamenti in contanti. Il modulo di banconote è autoportante a terra ed integrabile nel bancone del punto cassa mentre il modulo moneta può essere messo supra a colonna. La sua eleganza e semplicità del design, la rende compatibile con ogni arredamento.",
     idealFor: [
       "Supermercati",
       "Retail strutturato",
@@ -110,7 +114,7 @@ export const products: Product[] = [
       "Continuità operativa",
     ],
     highlights: ["Modulare", "Grandi volumi", "Solida"],
-    image: productImage,
+    image: cash4_2_image,
     ctaLabel: "Scopri Cash 4.2",
   },
   {
@@ -120,7 +124,7 @@ export const products: Product[] = [
     priority: "standard",
     claim: "La soluzione VNE per grandi volumi di transazioni in contanti.",
     description:
-      "Cassa automatica modulare per punti vendita ad alto flusso, con gestione avanzata di banconote e monete.",
+      "Questa cassa automatica gestisce grandi flussi di contante combinando un modulo banconote a terra, integrabile nel bancone, che accetta ed eroga a pacchetto, con un potente riciclatore di monete a sviluppo orizzontale posizionabile a colonna. Il design elegante e compatto la rende ideale per qualsiasi punto cassa ad alto traffico, adattandosi perfettamente a ogni stile di arredamento.",
     idealFor: [
       "Supermercati",
       "Catene retail",
@@ -134,7 +138,7 @@ export const products: Product[] = [
       "Riduzione code",
     ],
     highlights: ["Top di gamma", "Alti flussi", "Modulare"],
-    image: productImage,
+    image: cash6_2_image,
     ctaLabel: "Scopri Cash 6.2",
   },
 ];

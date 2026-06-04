@@ -21,7 +21,7 @@ export function ProductCard({
 }: ProductCardProps) {
   return (
     <article
-      className={`group overflow-hidden rounded-lg border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl ${featured ? "border-blue-500" : "border-slate-200"}`}
+      className={`group overflow-hidden rounded-lg bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl`}
     >
       <Link href={href} className="block">
         <div className="relative aspect-4/3 bg-slate-100">
