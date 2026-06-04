@@ -98,7 +98,7 @@ export const products: Product[] = [
     name: "VNE Cash 4.2",
     shortName: "Cash 4.2",
     priority: "standard",
-    claim: "Cassa modulare per flussi importanti di contante.",
+    claim: "Cassa modulare per flussi importanti di contante in maniera sicura.",
     description:
       "La cassa modulare che accetta banconote a pacchetto ed eroga banconote a pacchetto  in grado di gestire importanti flussi di banconote sia in pagamento che in resto abbinata ad un riciclatore di monete potentissimo che si sviluppa in posizione orizzontale. Questa combinazione consente alla cassa di gestire grandi volumi di pagamenti in contanti. Il modulo di banconote è autoportante a terra ed integrabile nel bancone del punto cassa mentre il modulo moneta può essere messo supra a colonna. La sua eleganza e semplicità del design, la rende compatibile con ogni arredamento.",
     idealFor: [

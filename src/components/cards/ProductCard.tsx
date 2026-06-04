@@ -53,8 +53,13 @@ export function ProductCard({
             <h3 className="text-xl font-bold text-slate-950">{name}</h3>
             <p className="mt-2 text-sm leading-6 text-slate-600">{claim}</p>
           </div>
-          <span className="inline-flex items-center gap-2 text-sm font-bold text-blue-700">
-            Dettagli soluzione <ArrowRight size={16} aria-hidden="true" />
+          <span className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-blue-700">
+            Dettagli soluzione{" "}
+            <ArrowRight
+              size={16}
+              aria-hidden="true"
+              className="transition-transform duration-200 group-hover:translate-x-1"
+            />
           </span>
         </div>
       </Link>

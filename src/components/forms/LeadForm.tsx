@@ -112,9 +112,13 @@ export function LeadForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="inline-flex min-h-12 items-center justify-center gap-2 rounded bg-blue-600 px-6 text-sm font-bold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:bg-slate-400"
+        className="group inline-flex min-h-12 items-center justify-center gap-2 rounded bg-blue-600 px-6 text-sm font-bold text-white transition hover:bg-blue-500 disabled:cursor-not-allowed disabled:bg-slate-400"
       >
-        <Send size={18} aria-hidden="true" />
+        <Send
+          size={18}
+          aria-hidden="true"
+          className="transition-transform duration-200 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+        />
         {isSubmitting ? "Invio in corso..." : "Invia richiesta"}
       </button>
       {status === "success" && (
