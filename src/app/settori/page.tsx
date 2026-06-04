@@ -12,12 +12,12 @@ export const metadata: Metadata = pageMetadata(
 export default function SettoriPage() {
   return (
     <>
-      <section className="bg-white py-20">
+      <section className="bg-slate-950 py-20 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-300">
             Settori
           </p>
-          <h1 className="mt-3 max-w-4xl text-5xl font-black tracking-normal text-slate-950">
+          <h1 className="mt-3 max-w-4xl text-5xl font-black tracking-normal text-white">
             Automazione del punto cassa per attività con contante quotidiano.
           </h1>
         </div>
