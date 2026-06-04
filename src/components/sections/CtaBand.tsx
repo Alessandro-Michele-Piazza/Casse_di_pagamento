@@ -18,7 +18,7 @@ export function CtaBand({
         </div>
         <Link
           href="/contatti"
-          className="inline-flex min-h-12 items-center justify-center rounded bg-blue-600 px-6 text-sm font-bold text-white hover:bg-blue-500"
+          className="inline-flex min-h-12 items-center justify-center rounded bg-blue-600 px-6 text-sm font-bold text-white hover:bg-blue-500 hover:-translate-y-1 active:translate-y-0.5 transition"
         >
           Parla con un consulente
         </Link>

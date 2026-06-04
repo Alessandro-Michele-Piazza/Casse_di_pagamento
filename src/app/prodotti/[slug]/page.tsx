@@ -66,13 +66,13 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/contatti"
-                className="inline-flex min-h-12 items-center justify-center rounded bg-blue-600 px-6 text-sm font-bold text-white hover:bg-blue-500"
+                className="inline-flex min-h-12 items-center justify-center rounded bg-blue-600 px-6 text-sm font-bold text-white hover:bg-blue-500 hover:-translate-y-1 active:translate-y-0.5 transition"
               >
                 Richiedi consulenza
               </Link>
               <Link
                 href="/noleggio-operativo"
-                className="inline-flex min-h-12 items-center justify-center rounded border border-white/30 px-6 text-sm font-bold text-white hover:bg-white hover:text-slate-950"
+                className="inline-flex min-h-12 items-center justify-center rounded border border-white/30 px-6 text-sm font-bold text-white hover:bg-white hover:text-slate-950 hover:-translate-y-1 active:translate-y-0.5 transition"
               >
                 Noleggio operativo
               </Link>
@@ -110,19 +110,19 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/sistema-cassa-completo"
-              className="rounded bg-slate-950 px-4 py-3 text-sm font-bold text-white"
+              className="rounded bg-slate-950 px-4 py-3 text-sm font-bold text-white hover:-translate-y-1 active:translate-y-0.5 transition"
             >
               Sistema cassa completo
             </Link>
             <Link
               href="/software/keepup-smart"
-              className="rounded bg-white px-4 py-3 text-sm font-bold text-slate-950 shadow-sm"
+              className="rounded bg-white px-4 py-3 text-sm font-bold text-slate-950 shadow-sm hover:-translate-y-1 active:translate-y-0.5 transition"
             >
               KeepUp Smart
             </Link>
             <Link
               href="/contatti"
-              className="rounded bg-blue-600 px-4 py-3 text-sm font-bold text-white"
+              className="rounded bg-blue-600 px-4 py-3 text-sm font-bold text-white hover:-translate-y-1 active:translate-y-0.5 transition"
             >
               Contatti
             </Link>

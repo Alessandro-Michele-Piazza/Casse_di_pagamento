@@ -22,7 +22,7 @@ export function RentalOffer() {
         </div>
         <Link
           href="/noleggio-operativo"
-          className="inline-flex min-h-12 items-center justify-center rounded bg-white px-6 text-sm font-bold text-blue-800 hover:bg-blue-50"
+          className="inline-flex min-h-12 items-center justify-center rounded bg-white px-6 text-sm font-bold text-blue-800 hover:bg-blue-50 hover:-translate-y-1 active:translate-y-0.5 transition"
         >
           Richiedi preventivo noleggio
         </Link>

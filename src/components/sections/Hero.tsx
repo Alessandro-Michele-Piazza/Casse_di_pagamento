@@ -48,14 +48,14 @@ export function Hero({
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Link
               href={primaryCta.href}
-              className="inline-flex min-h-12 items-center justify-center gap-2 rounded bg-blue-600 px-6 text-sm font-bold text-white transition hover:bg-blue-500"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded bg-blue-600 px-6 text-sm font-bold text-white transition hover:bg-blue-500 hover:-translate-y-1 active:translate-y-0.5"
             >
               {primaryCta.label} <ArrowRight size={18} aria-hidden="true" />
             </Link>
             {secondaryCta && (
               <Link
                 href={secondaryCta.href}
-                className="inline-flex min-h-12 items-center justify-center rounded border border-white/30 px-6 text-sm font-bold text-white transition hover:bg-white hover:text-slate-950"
+                className="inline-flex min-h-12 items-center justify-center rounded border border-white/30 px-6 text-sm font-bold text-white transition hover:bg-white hover:text-slate-950 hover:-translate-y-1 active:translate-y-0.5"
               >
                 {secondaryCta.label}
               </Link>

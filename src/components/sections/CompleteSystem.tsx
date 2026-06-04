@@ -29,7 +29,7 @@ export function CompleteSystem() {
           </p>
           <Link
             href="/sistema-cassa-completo"
-            className="mt-8 inline-flex min-h-12 items-center justify-center rounded bg-white px-6 text-sm font-bold text-slate-950 hover:bg-blue-100"
+            className="mt-8 inline-flex min-h-12 items-center justify-center rounded bg-white px-6 text-sm font-bold text-slate-950 hover:bg-blue-100 transition hover:-translate-y-1 active:translate-y-0.5"
           >
             Vedi il sistema completo
           </Link>
