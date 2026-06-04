@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { navItems } from "@/data/navigation";
+import logo from "@/assets/logo.svg";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -19,9 +20,8 @@ export function SiteHeader() {
           aria-label="SPLIT Casse Automatiche"
           onClick={() => setIsOpen(false)}
         >
-          <span className="grid size-10 place-items-center rounded bg-slate-950 text-sm font-black text-white">
-            SP
-          </span>
+          <img src={logo.src} alt="logo_azienda" className="size-10 object-contain" />
+
           <span className="leading-tight">
             <span className="block text-base font-black tracking-normal text-slate-950">
               Casse Automatiche

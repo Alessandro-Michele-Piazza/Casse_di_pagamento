@@ -53,6 +53,10 @@ export const baseMetadata: Metadata = {
   },
   description:
     "Automatizza il punto cassa con casse automatiche VNE, sistema touch, misuratore fiscale e software KeepUp Smart.",
+  icons: {
+    icon: [{ url: "/favicon-split.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon-split.svg",
+  },
   alternates: buildAlternates("/"),
   openGraph: {
     type: "website",
