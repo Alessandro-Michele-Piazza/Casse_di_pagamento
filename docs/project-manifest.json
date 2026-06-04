@@ -1,0 +1,28 @@
+{
+  "project": "LP Casse Automatiche",
+  "stack": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "TailwindCSS",
+    "SSR",
+    "Vercel"
+  ],
+  "products_featured": [
+    "VNE MiniCash",
+    "VNE Virtuo 4",
+    "VNE Cash 2.2"
+  ],
+  "products_other": [
+    "VNE Cash 4.2",
+    "VNE Cash 6.2"
+  ],
+  "software": "Custom KeepUp Smart",
+  "offer": "Sistema Cassa Completo: cassa automatica rendiresto + touch + misuratore fiscale + software",
+  "sources": [
+    "https://www.vne.it/it/casse-di-pagamento-automatiche/",
+    "https://www.vne.it/it/casse-di-pagamento-automatiche/mini-cash/",
+    "https://www.custom.biz/it_IT/prodotto/software/keep-up-suite/keep-up-smart",
+    "https://casseautomatichecatania.it/"
+  ]
+}
