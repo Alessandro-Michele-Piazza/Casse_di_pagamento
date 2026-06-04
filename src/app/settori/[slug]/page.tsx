@@ -47,7 +47,7 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
           </p>
           <Link
             href="/contatti"
-            className="mt-8 inline-flex min-h-12 items-center justify-center rounded bg-blue-600 px-6 text-sm font-bold text-white hover:bg-blue-500"
+            className="mt-8 inline-flex min-h-12 items-center justify-center rounded bg-blue-600 px-6 text-sm font-bold text-white hover:bg-blue-500 hover:-translate-y-1 active:translate-y-0.5 transition"
           >
             Richiedi consulenza
           </Link>

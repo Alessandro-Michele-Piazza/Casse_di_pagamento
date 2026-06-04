@@ -66,7 +66,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-5 text-center text-xs text-slate-400">
-        © 2026 SPLIT | GL S.r.l.s. Tutti i diritti riservati.
+       <a href="https://www.splitweb.it"> © 2026 SPLIT | GL S.r.l.s. Tutti i diritti riservati.  |  Realizzato da SPLIT Web Agency</a>
       </div>
     </footer>
   );
